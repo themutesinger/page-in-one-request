@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "page-in-one-request"
+version = "0.1.0"
+description = ""
+authors = ["Suvan <overmind77s@gmail.com>"]
+readme = "README.md"
+packages = [{include = "page_in_one_request"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
