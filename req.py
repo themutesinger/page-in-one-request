@@ -23,9 +23,7 @@ def main():
 
     if len(arguments[1]) != 0:
         response = requests.get(url=arguments[1][0])
-        print(response.text)
-
-    print(arguments)
+        print(response)
 
 
 if __name__ == '__main__':
